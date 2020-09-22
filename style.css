@@ -1,0 +1,107 @@
+body{
+    max-width: 80%;
+    margin: auto;
+}
+
+#content{
+    background-color: rgb(252, 210, 224)
+}
+
+#header{
+position: relative;
+height:300px;
+
+
+
+display:flex;
+justify-content: CENTER;
+align-items: center;
+
+}
+
+#bg{
+    position:absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+
+    background-image : url(im/背景.jpg);
+    background-size:cover;
+    filter:blur(3px)
+}
+
+h1{
+    color:rgb(30, 111, 114);
+    text-align:center;
+    background-color: rgb(173, 245, 197);
+    z-index:100;
+}
+
+h2{
+color:rgb(82, 12, 47);
+text-align:center;
+background-color: rgb(245, 223, 124);
+z-index: 9;
+
+
+}
+
+#effiel,#lelouve,#notredamn,#charles{
+   
+}
+
+img{
+    max-width:100%;
+
+    text-align:center;
+}
+h2{color:yellow;}
+h3{color:rgb(19, 15, 248);}
+h5{color:rgb(44, 29, 252);}
+
+#main{
+    display:flex;
+    justify-content: space-between;
+}
+
+a{
+text-decoration:none;
+background-color:rgb(243, 96, 116);
+color:white;
+
+}
+
+a:hover{
+    background-color:rgb(131, 5, 43);
+    
+}
+
+.sopt{
+    
+    width:25%;
+    background-color: rgb(235, 157, 235);
+    padding: 0 15px;
+}
+.spot:hover{
+    background-color:rgb(247, 244, 203);
+    border:8px rgb(134, 231, 194) groove;
+    box-shadow : 10px 10px 5px rgba(240, 184, 184, 0.8);
+
+}
+
+.demo {
+    opacity : 0.3;
+}
+
+.demo:hover {
+
+    opacity : 1;
+	transform : scale(1);
+	
+	
+}
+
+
+
+
